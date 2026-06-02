@@ -1,0 +1,225 @@
+<svg viewBox="-500 -350 1000 700"
+
+	width="100%"
+	height="100%"
+	preserveAspectRatio="xMidYMid meet"
+
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <style>
+      .center { fill:#245e78; }
+	  .outer { fill:#3e7f23; }
+	  text { font-family: Arial, sans-serif; fill:#fff; text-anchor: middle; dominant-baseline: middle; }
+      .title { font-size: 30px; font-weight: 600; }
+	  .outertitle { font-size: 22px; font-weight: 600; }
+  .popup {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    fill: black;
+    font-size: 14px;
+  }
+
+  a:focus .popup {
+    opacity: 1;
+  }
+  
+  .hex-group {
+    cursor: pointer;
+  }
+
+
+    </style>
+
+    <!-- Hexagon centred at (0,0) -->
+    <g id="hex" transform="rotate(30)">
+      <polygon points="
+        0,-100
+        86.6,-50
+        86.6,50
+        0,100
+        -86.6,50
+        -86.6,-50
+      "/>
+    </g>
+  </defs>
+
+  <!-- Exactly centred -->
+ <g>
+	<use href="#hex" class="center"/>
+	<text x="0" y="0" class="title">
+		<tspan x="0" dy="-0.6em">School of</tspan>
+		<tspan x="0" dy="1.2em">Chemistry</tspan>
+	</text>
+ </g>
+<a href="#">  
+<g class= "hex-group" transform="translate(0,180) scale(0.8)"> 
+	<use href="#hex" class="outer" />
+	<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Sustainability</tspan>
+		<tspan x="0" dy="1em">and</tspan>
+		<tspan x="0" dy="1em">Stewardship</tspan>
+	</text>
+	
+	<text class="popup" x="100" y="120">
+      Infrastructure planning
+    </text>
+	 <text class="popup" x="-100" y="120">
+      LEAF network
+    </text>
+</g>
+</a>
+<a href="#">
+<g transform="translate(0,-180) scale(0.8)">
+	<use href="#hex" class="outer" />
+	<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Collaboration</tspan>
+		<tspan x="0" dy="1em">and</tspan>
+		<tspan x="0" dy="1em">Engagement</tspan>
+	</text>
+	
+	<text class="popup" x="100" y="-120">
+      Centres and Institutes
+    </text>
+	 <text class="popup" x="-100" y="-120">
+      Industrial Advisory Board
+    </text>
+	 <text class="popup" x="180" y="-10">
+      Industrial partnerships
+    </text>
+		 <text class="popup" x="-140" y="-60">
+      Partner schools
+    </text>
+		 <text class="popup" x="-210" y="-10">
+      Transnational education
+    </text>
+		 <text class="popup" x="-355" y="172">
+      Placements
+    </text>
+	
+	
+</g>
+</a>
+<a href="#">
+<g transform="translate(155.88,-90) scale(0.8)">
+  <use href="#hex" class="outer"/>
+	<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Research</tspan>
+		<tspan x="0" dy="1em">with</tspan>
+		<tspan x="0" dy="1em">Impact</tspan>
+	</text>
+	<text class="popup" x="-15" y="-122">
+      Industrial partnerships
+    </text>
+	<text class="popup" x="160" y="-60">
+      Research Sections
+    </text>
+		 <text class="popup" x="180" y="0">
+      Innovation champion
+    </text>
+	<text class="popup" x="160" y="60">
+      Internal peer review
+    </text>
+		<text class="popup" x="160" y="165">
+		<tspan x= "160"  dy="-1em">Common process for </tspan>
+			<tspan  x= "160" dy="1em">Fellowships</tspan>
+    </text>
+ </g>
+ </a>
+ <a href="#">
+ <g transform="translate(-155.88,-90) scale(0.8)">
+   <use href="#hex" class="outer" />
+   		<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Education</tspan>
+		<tspan x="0" dy="1em">Centred on</tspan>
+		<tspan x="0" dy="1em">Students</tspan>
+	</text>
+	<text class="popup" x="-15" y="-122">
+      Transnational education
+    </text>
+		<text class="popup" x="-140" y="-80">
+      Flexible projects
+    </text>
+		<text class="popup" x="-170" y="-40">
+      Redefined curriculum
+    </text>
+		 <text class="popup" x="-180" y="0">
+      New programmes
+    </text>
+	<text class="popup" x="-160" y="60">
+      Placements
+    </text>
+ </g>
+ </a>
+ <a href="#">
+ <g transform="translate(155.88,90) scale(0.8)">
+    <use href="#hex" class="outer" />
+		<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Professional</tspan>
+		<tspan x="0" dy="1em">Growth and</tspan>
+		<tspan x="0" dy="1em">Leadership</tspan>
+	</text>
+	<text class="popup" x="160" y="-165">
+      Internal peer review
+    </text>
+	<text class="popup" x="160" y="60">
+	      <tspan x= "160"  dy="-1em">Personal Academic</tspan>
+			<tspan  x= "160" dy="1em">Development Scheme</tspan>
+    </text>
+		 <text class="popup" x="180" y="0">
+      	      <tspan x= "180"  dy="-1em">Advertisement of </tspan>
+			<tspan  x= "180" dy="1em">leadership roles</tspan>
+
+    </text>
+	<text class="popup" x="160" y="-60">
+		<tspan x= "160"  dy="-1em">Common process for </tspan>
+			<tspan  x= "160" dy="1em">Fellowships</tspan>
+    </text>
+	<text class="popup" x="0" y="122">
+		Professional development
+
+    </text>
+</g>
+</a>
+<a href="#">
+<g transform="translate(-155.88,90) scale(0.8)">
+	 <use href="#hex" class="outer" />
+	 	<text x="0" y="0" class="outertitle">
+		<tspan x="0" dy="-1em">Equity</tspan>
+		<tspan x="0" dy="1em">Diversity and</tspan>
+		<tspan x="0" dy="1em">Inclusion</tspan>
+	</text>
+		<text class="popup" x="-140" y="-80">
+      Public Engagement
+    </text>
+		<text class="popup" x="-170" y="-40">
+      Workload allocation model
+    </text>
+		 <text class="popup" x="-180" y="0">
+      Coffeee room
+    </text>
+	<text class="popup" x="-160" y="60">
+      Inclusive activities
+    </text>
+	<text class="popup" x="-100" y="120">
+      <tspan x= "-100"  dy="-1em">Published channels</tspan>
+	  <tspan x= "-100"  dy="1em">into Committees</tspan>
+    </text>
+</g>
+</a>
+	 
+	
+
+
+
+  <!-- Optional: visual centre cross for debugging -->
+  <!--
+  <line x1="-500" y1="0" x2="500" y2="0" stroke="red"/>
+  <line x1="0" y1="-350" x2="0" y2="350" stroke="red"/>
+	-->
+
+</svg>
+
+
+	
